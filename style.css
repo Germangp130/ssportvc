@@ -1,0 +1,330 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #832828; 
+    color: rgb(0, 0, 0);
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.hero {
+    background: url('images/deportivos.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    cursor: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    transition :  ease-in 1.5s;
+}
+.hero:hover{
+    background: url('images/ferrarifondo2.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+
+}
+h1{
+    transition: 0.5s;
+}
+h1:hover{
+    color: red;
+    font-size: large;
+}
+.galery-font{
+    display: flex;
+    width: 1300px;
+    height: 200px;
+
+}
+.galery-font img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 8;
+    transition: 1.5s;
+    
+}
+.galery-font img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+
+
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background: rgb(207, 207, 207);
+    border: none;
+    cursor: pointer;
+    transition:  ease-in 1s;
+    border-radius: 10px;
+}
+
+.cta-button:hover {
+    background: rgb(255, 0, 0);
+    color: black;
+}
+
+.modelo-card {
+    background: rgb(240, 240, 240);
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.galeria-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+}
+a{
+
+    color: Black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+img{
+    width: 300px;
+    height: 200px;
+
+}
+a:hover{
+    color: yellow;
+   
+   font-size: 20px;
+
+
+  
+}
+.container{
+    text-decoration: none;
+}
+.footer{
+    background-color: rgb(54, 52, 52);
+    padding: 15px 0 0 20px;
+    color: white;
+    padding-left: 0;
+    padding-right: 0;
+    text-decoration: none;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 2px solid rgb(107, 107, 107) ;
+    margin-left: 2px;
+    margin-right: 0;
+    text-decoration: none;
+}
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+    text-decoration: none;
+}
+.footer-links h4{
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+.copy{
+    background-color: rgb(223, 223, 223);
+    color: gray;
+    margin: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+    
+}
+.footer-links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: gray;
+    display: block;
+    text-decoration: none;
+
+
+}
+li a{
+    color: gray;
+    text-decoration: none;
+}
+.loguito{
+    width: 350px;
+    height: 50px;
+    transition: 1s;
+}
+.loguito:hover{
+    width: 400px;
+    height: 60px;
+}
+
+.s{
+    margin: 20px;
+    background: url(images/lykan.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+    color: #0e5e57;
+    text-align: center;
+    opacity: 100%;
+    transition: 1s;
+}
+
+.s h1{
+    color: #3b3a3a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 100px;
+    transition: 2.5s;
+}
+.s h1:hover{
+    color: #3b3a3a;
+    font-size: medium;
+}
+
+.t{
+    margin: 20px;
+    background: url(images/Pagani\ Huayra.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+    color: #c20000;
+    text-align: center;
+    opacity: 100%;
+    transition: 1s;
+
+}
+
+.t h1{
+    color: #3b3a3a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 100px;
+    transition: 2.5s;
+}
+.t h1:hover{
+    color: #3b3a3a;
+    font-size: medium;
+}
+
+.u{
+    margin: 20px;
+    background: url(images/lamborghini-huracan-sto-super-trofeo-omologata-03.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+    color: #0e5e57;
+    text-align: center;
+    opacity: 100%;
+    transition: 1s;
+
+}
+.u h1{
+    color: #3b3a3a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 100px;
+    transition: 2.5s;
+}
+.u h1:hover{
+    color: #3b3a3a;
+    font-size: medium;
+}
+
+.v{
+    margin: 20px;
+    background: url(images/corvette\ C8.avif) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+    color: #0e5e57;
+    text-align: center;
+    opacity: 100%;
+    transition: 1s;
+
+}
+.v h1{
+    color: #444343;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 100px;
+    transition: 2.5s;
+}
+.v h1:hover{
+    color: #3b3a3a;
+    font-size: medium;
+}
+
+    
+
+
+
+ .Fondt{
+    background-color: #000000;
+    opacity: 60%;
+    width: 1320px;
+    height: 490px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+li a img{
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+}
